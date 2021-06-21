@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WcjMyForum_Example' do
+  pod 'WcjMyForum', :path => '../'
+
+  target 'WcjMyForum_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
