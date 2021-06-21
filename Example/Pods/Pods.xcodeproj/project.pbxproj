@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC756F26A960EC2EC71CB49654C25DA /* Pods-WcjMyForum_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4699F8B8BD89858289E5C9BB4195D94 /* Pods-WcjMyForum_Tests-dummy.m */; };
+		58F083532680E9D900C89642 /* MyForumClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083522680E9D900C89642 /* MyForumClient.swift */; };
+		58F083552680EA2800C89642 /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083542680EA2800C89642 /* NetworkGeneric.swift */; };
+		58F083572680EA3600C89642 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083562680EA3600C89642 /* ApiError.swift */; };
+		58F083592680EB0200C89642 /* MyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083582680EB0200C89642 /* MyPost.swift */; };
+		5E46332EDD8B5D7A0413872762F6E13E /* Pods-WcjMyForum_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A1530D145B8599A7E4659D4D9D45DC /* Pods-WcjMyForum_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A9C8916FA1356021B25F8A8067E8B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8E1835E014138D4F95546D72219DAF2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97E9EE1A36A4B0E2A14B87113AAD2041 /* Pods-WcjMyForum_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E259FC965EF0F9E75F417AE93DE4F5C /* Pods-WcjMyForum_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E122BF478E13C48CE1213F9B949931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0521936194E84D93E28DFC7E52A51A9 /* WcjMyForum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8552952A9FDD78581FD645D238197B /* WcjMyForum-dummy.m */; };
+		D3EE9E20BB30D7612512D11ADB215C92 /* Pods-WcjMyForum_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54325DCA65AAC50A89C4FA347D5EC15C /* Pods-WcjMyForum_Example-dummy.m */; };
+		E0333BF5CF6C75F898CA0B7EDB45B7CD /* WcjMyForum-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E87E52C2AD43E54882049FE6124B2AB /* WcjMyForum-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		589C81AE06B19193185FF99B35A6F88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757F91F808DA0E1F03AAC3B79D6A8A20;
+			remoteInfo = WcjMyForum;
+		};
+		ACF1075FC2DA733AC9E4C35E78BC5BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF92E3196DDD96E17585926D500C2E7;
+			remoteInfo = "Pods-WcjMyForum_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150DCD73C7AAFDE0701148228C65355A /* Pods_WcjMyForum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjMyForum_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		179FF5C6651282296EF02288EE39A146 /* Pods-WcjMyForum_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WcjMyForum_Example.modulemap"; sourceTree = "<group>"; };
+		327898DE94456CD6A25E9F6EE69C4CDA /* WcjMyForum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjMyForum.debug.xcconfig; sourceTree = "<group>"; };
+		48C1127C86C2C218F88FCEF7947CD187 /* Pods-WcjMyForum_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjMyForum_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54325DCA65AAC50A89C4FA347D5EC15C /* Pods-WcjMyForum_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WcjMyForum_Example-dummy.m"; sourceTree = "<group>"; };
+		58F083522680E9D900C89642 /* MyForumClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForumClient.swift; sourceTree = "<group>"; };
+		58F083542680EA2800C89642 /* NetworkGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGeneric.swift; sourceTree = "<group>"; };
+		58F083562680EA3600C89642 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		58F083582680EB0200C89642 /* MyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPost.swift; sourceTree = "<group>"; };
+		61DFD03E9809CF3B170DAD7E583F6CDA /* Pods-WcjMyForum_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WcjMyForum_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		650F7F2CD32DCF3E3BB9899894EB85C8 /* WcjMyForum.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WcjMyForum.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		71B33030F2D27017B01DF04E32570EFC /* WcjMyForum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WcjMyForum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78A1530D145B8599A7E4659D4D9D45DC /* Pods-WcjMyForum_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WcjMyForum_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7AACD363C4F663166595BBB9DAFA5C01 /* Pods-WcjMyForum_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WcjMyForum_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7E87E52C2AD43E54882049FE6124B2AB /* WcjMyForum-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WcjMyForum-umbrella.h"; sourceTree = "<group>"; };
+		80FE7ADFB7795C8E3CD8C4237F1E8ADA /* WcjMyForum.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WcjMyForum.modulemap; sourceTree = "<group>"; };
+		8C33A12D6236309B4C541394A18E5E8A /* WcjMyForum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WcjMyForum-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E259FC965EF0F9E75F417AE93DE4F5C /* Pods-WcjMyForum_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WcjMyForum_Example-umbrella.h"; sourceTree = "<group>"; };
+		A14161B4B4E71D593BDDADAED5C1698F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4699F8B8BD89858289E5C9BB4195D94 /* Pods-WcjMyForum_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WcjMyForum_Tests-dummy.m"; sourceTree = "<group>"; };
+		AA8552952A9FDD78581FD645D238197B /* WcjMyForum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WcjMyForum-dummy.m"; sourceTree = "<group>"; };
+		AFE4CA7C32C77AFC878E17E83355A11A /* Pods-WcjMyForum_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjMyForum_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F106F1F73DF15335069C0FF9CC95CA /* Pods-WcjMyForum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjMyForum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5576B27FD0798DD88859C45D232FA26 /* Pods-WcjMyForum_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjMyForum_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C115C8586BCAE0D5592EAA95D26CF363 /* Pods-WcjMyForum_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WcjMyForum_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1813C41B71D476CBABEC2300CD0BFA8 /* WcjMyForum-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WcjMyForum-prefix.pch"; sourceTree = "<group>"; };
+		D6C927DC3D675D3E491FFEAA08C63A4C /* Pods-WcjMyForum_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjMyForum_Example-Info.plist"; sourceTree = "<group>"; };
+		E2D7AB53F21C4AA06B6FA6953888C5DF /* Pods_WcjMyForum_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjMyForum_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA317660E03CF26E9FE8B21F2DF6DAAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE5AA3F838289E4197866431E8559652 /* Pods-WcjMyForum_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjMyForum_Tests-Info.plist"; sourceTree = "<group>"; };
+		F1C21593D518FC59F788E8CC301F81DB /* Pods-WcjMyForum_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjMyForum_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F69D85D57DBF8681F1C46B16FB793C24 /* WcjMyForum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjMyForum.release.xcconfig; sourceTree = "<group>"; };
+		F6F9D4FE50C707E8A62210E0FEAD73AD /* Pods-WcjMyForum_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WcjMyForum_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F80E9A6D4CE4BA16C4B4FBBB5CF0F207 /* Pods-WcjMyForum_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WcjMyForum_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1672E74464326844BB85DCFDE45A7ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1835E014138D4F95546D72219DAF2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3034C7CD25A71C4D8089DA7A6F5BC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A9C8916FA1356021B25F8A8067E8B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F883230A34C1A56ECC1EE7EE400B0D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E122BF478E13C48CE1213F9B949931 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08397F2E830929A0A8FA7D057D16309F /* Pods-WcjMyForum_Example */ = {
+			isa = PBXGroup;
+			children = (
+				179FF5C6651282296EF02288EE39A146 /* Pods-WcjMyForum_Example.modulemap */,
+				61DFD03E9809CF3B170DAD7E583F6CDA /* Pods-WcjMyForum_Example-acknowledgements.markdown */,
+				F1C21593D518FC59F788E8CC301F81DB /* Pods-WcjMyForum_Example-acknowledgements.plist */,
+				54325DCA65AAC50A89C4FA347D5EC15C /* Pods-WcjMyForum_Example-dummy.m */,
+				7AACD363C4F663166595BBB9DAFA5C01 /* Pods-WcjMyForum_Example-frameworks.sh */,
+				D6C927DC3D675D3E491FFEAA08C63A4C /* Pods-WcjMyForum_Example-Info.plist */,
+				9E259FC965EF0F9E75F417AE93DE4F5C /* Pods-WcjMyForum_Example-umbrella.h */,
+				AFE4CA7C32C77AFC878E17E83355A11A /* Pods-WcjMyForum_Example.debug.xcconfig */,
+				C115C8586BCAE0D5592EAA95D26CF363 /* Pods-WcjMyForum_Example.release.xcconfig */,
+			);
+			name = "Pods-WcjMyForum_Example";
+			path = "Target Support Files/Pods-WcjMyForum_Example";
+			sourceTree = "<group>";
+		};
+		3CB6A7D01A0ADAF6617D1DCB4D58489D /* Pods-WcjMyForum_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F80E9A6D4CE4BA16C4B4FBBB5CF0F207 /* Pods-WcjMyForum_Tests.modulemap */,
+				F6F9D4FE50C707E8A62210E0FEAD73AD /* Pods-WcjMyForum_Tests-acknowledgements.markdown */,
+				48C1127C86C2C218F88FCEF7947CD187 /* Pods-WcjMyForum_Tests-acknowledgements.plist */,
+				A4699F8B8BD89858289E5C9BB4195D94 /* Pods-WcjMyForum_Tests-dummy.m */,
+				EE5AA3F838289E4197866431E8559652 /* Pods-WcjMyForum_Tests-Info.plist */,
+				78A1530D145B8599A7E4659D4D9D45DC /* Pods-WcjMyForum_Tests-umbrella.h */,
+				B2F106F1F73DF15335069C0FF9CC95CA /* Pods-WcjMyForum_Tests.debug.xcconfig */,
+				B5576B27FD0798DD88859C45D232FA26 /* Pods-WcjMyForum_Tests.release.xcconfig */,
+			);
+			name = "Pods-WcjMyForum_Tests";
+			path = "Target Support Files/Pods-WcjMyForum_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58F0834E2680E96B00C89642 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				58F083542680EA2800C89642 /* NetworkGeneric.swift */,
+				58F083562680EA3600C89642 /* ApiError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		58F0834F2680E97600C89642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58F083582680EB0200C89642 /* MyPost.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58F083512680E9B400C89642 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				58F083522680E9D900C89642 /* MyForumClient.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		58F0835D2681018300C89642 /* WcjMyForum */ = {
+			isa = PBXGroup;
+			children = (
+				58F0834E2680E96B00C89642 /* Network */,
+				58F0834F2680E97600C89642 /* Models */,
+				58F083512680E9B400C89642 /* Endpoints */,
+			);
+			path = WcjMyForum;
+			sourceTree = "<group>";
+		};
+		5CE109A407F09ACF70C908825AD37D15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FE7ADFB7795C8E3CD8C4237F1E8ADA /* WcjMyForum.modulemap */,
+				AA8552952A9FDD78581FD645D238197B /* WcjMyForum-dummy.m */,
+				8C33A12D6236309B4C541394A18E5E8A /* WcjMyForum-Info.plist */,
+				C1813C41B71D476CBABEC2300CD0BFA8 /* WcjMyForum-prefix.pch */,
+				7E87E52C2AD43E54882049FE6124B2AB /* WcjMyForum-umbrella.h */,
+				327898DE94456CD6A25E9F6EE69C4CDA /* WcjMyForum.debug.xcconfig */,
+				F69D85D57DBF8681F1C46B16FB793C24 /* WcjMyForum.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WcjMyForum";
+			sourceTree = "<group>";
+		};
+		5CFCA8E4F8B8B6DEF6795D5E27B76C9C /* WcjMyForum */ = {
+			isa = PBXGroup;
+			children = (
+				58F0835D2681018300C89642 /* WcjMyForum */,
+				D588E2DE0F2A891A7C54E779A44F7BB4 /* Pod */,
+				5CE109A407F09ACF70C908825AD37D15 /* Support Files */,
+			);
+			name = WcjMyForum;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B2F7A09A88D6C24172F657AE15020AF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08397F2E830929A0A8FA7D057D16309F /* Pods-WcjMyForum_Example */,
+				3CB6A7D01A0ADAF6617D1DCB4D58489D /* Pods-WcjMyForum_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DCD8C7ED579B76E8F0A6405FBEFD42C2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F27B03BAD8A5FDBF73CC407DFBABDD1A /* Products */,
+				B2F7A09A88D6C24172F657AE15020AF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D588E2DE0F2A891A7C54E779A44F7BB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A14161B4B4E71D593BDDADAED5C1698F /* LICENSE */,
+				EA317660E03CF26E9FE8B21F2DF6DAAB /* README.md */,
+				650F7F2CD32DCF3E3BB9899894EB85C8 /* WcjMyForum.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DCD8C7ED579B76E8F0A6405FBEFD42C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCA8E4F8B8B6DEF6795D5E27B76C9C /* WcjMyForum */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F27B03BAD8A5FDBF73CC407DFBABDD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150DCD73C7AAFDE0701148228C65355A /* Pods_WcjMyForum_Example.framework */,
+				E2D7AB53F21C4AA06B6FA6953888C5DF /* Pods_WcjMyForum_Tests.framework */,
+				71B33030F2D27017B01DF04E32570EFC /* WcjMyForum.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C33A7F08A6C140E94E37152C6C3EAF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E46332EDD8B5D7A0413872762F6E13E /* Pods-WcjMyForum_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AF19CC3E339278A4B03C9568B410F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9EE1A36A4B0E2A14B87113AAD2041 /* Pods-WcjMyForum_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAC160A974103AB51E625C146126AB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0333BF5CF6C75F898CA0B7EDB45B7CD /* WcjMyForum-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BF92E3196DDD96E17585926D500C2E7 /* Pods-WcjMyForum_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EDFCD2AA5FBE29FEF1B99F60417B85 /* Build configuration list for PBXNativeTarget "Pods-WcjMyForum_Example" */;
+			buildPhases = (
+				A5AF19CC3E339278A4B03C9568B410F9 /* Headers */,
+				51EA3EFA0B23380887655611B563EBEA /* Sources */,
+				F883230A34C1A56ECC1EE7EE400B0D19 /* Frameworks */,
+				2E08F8C2533E786B0AEACFAB3E394481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2FC62D089BD9564F94EAE8914F8EE56 /* PBXTargetDependency */,
+			);
+			name = "Pods-WcjMyForum_Example";
+			productName = "Pods-WcjMyForum_Example";
+			productReference = 150DCD73C7AAFDE0701148228C65355A /* Pods_WcjMyForum_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		757F91F808DA0E1F03AAC3B79D6A8A20 /* WcjMyForum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A62A5F18901640E8AAA1370ADEBD92 /* Build configuration list for PBXNativeTarget "WcjMyForum" */;
+			buildPhases = (
+				DAAC160A974103AB51E625C146126AB9 /* Headers */,
+				967C183E40CCD2C010D8CA345E3615F6 /* Sources */,
+				B3034C7CD25A71C4D8089DA7A6F5BC11 /* Frameworks */,
+				B9AF558355EE3B937A61C14C878274EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WcjMyForum;
+			productName = WcjMyForum;
+			productReference = 71B33030F2D27017B01DF04E32570EFC /* WcjMyForum.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B2C7A63B34EC59883E8E8616C2D9615 /* Pods-WcjMyForum_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CF30276EEFCD6925F714F24771E3F3 /* Build configuration list for PBXNativeTarget "Pods-WcjMyForum_Tests" */;
+			buildPhases = (
+				4C33A7F08A6C140E94E37152C6C3EAF3 /* Headers */,
+				B1298E91BF4FBAF31B49DD6B24BB0707 /* Sources */,
+				1672E74464326844BB85DCFDE45A7ED3 /* Frameworks */,
+				83883446770037CF376AA7AC39F53356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F89AD6D10740E443200C21E146BD3E /* PBXTargetDependency */,
+			);
+			name = "Pods-WcjMyForum_Tests";
+			productName = "Pods-WcjMyForum_Tests";
+			productReference = E2D7AB53F21C4AA06B6FA6953888C5DF /* Pods_WcjMyForum_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					757F91F808DA0E1F03AAC3B79D6A8A20 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F27B03BAD8A5FDBF73CC407DFBABDD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF92E3196DDD96E17585926D500C2E7 /* Pods-WcjMyForum_Example */,
+				8B2C7A63B34EC59883E8E8616C2D9615 /* Pods-WcjMyForum_Tests */,
+				757F91F808DA0E1F03AAC3B79D6A8A20 /* WcjMyForum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E08F8C2533E786B0AEACFAB3E394481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83883446770037CF376AA7AC39F53356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AF558355EE3B937A61C14C878274EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51EA3EFA0B23380887655611B563EBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EE9E20BB30D7612512D11ADB215C92 /* Pods-WcjMyForum_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967C183E40CCD2C010D8CA345E3615F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F083532680E9D900C89642 /* MyForumClient.swift in Sources */,
+				58F083572680EA3600C89642 /* ApiError.swift in Sources */,
+				58F083552680EA2800C89642 /* NetworkGeneric.swift in Sources */,
+				B0521936194E84D93E28DFC7E52A51A9 /* WcjMyForum-dummy.m in Sources */,
+				58F083592680EB0200C89642 /* MyPost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1298E91BF4FBAF31B49DD6B24BB0707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC756F26A960EC2EC71CB49654C25DA /* Pods-WcjMyForum_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2FC62D089BD9564F94EAE8914F8EE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WcjMyForum;
+			target = 757F91F808DA0E1F03AAC3B79D6A8A20 /* WcjMyForum */;
+			targetProxy = 589C81AE06B19193185FF99B35A6F88A /* PBXContainerItemProxy */;
+		};
+		F9F89AD6D10740E443200C21E146BD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WcjMyForum_Example";
+			target = 5BF92E3196DDD96E17585926D500C2E7 /* Pods-WcjMyForum_Example */;
+			targetProxy = ACF1075FC2DA733AC9E4C35E78BC5BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0548A2BEF42B80E41E0A13CDFAF53004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C115C8586BCAE0D5592EAA95D26CF363 /* Pods-WcjMyForum_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WcjMyForum_Example/Pods-WcjMyForum_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WcjMyForum_Example/Pods-WcjMyForum_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		064439CA12D02A0C75F9FD78A53EE045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69D85D57DBF8681F1C46B16FB793C24 /* WcjMyForum.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WcjMyForum/WcjMyForum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WcjMyForum/WcjMyForum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WcjMyForum/WcjMyForum.modulemap";
+				PRODUCT_MODULE_NAME = WcjMyForum;
+				PRODUCT_NAME = WcjMyForum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6546C653F667122A979EEAA9EB8A026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327898DE94456CD6A25E9F6EE69C4CDA /* WcjMyForum.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WcjMyForum/WcjMyForum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WcjMyForum/WcjMyForum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WcjMyForum/WcjMyForum.modulemap";
+				PRODUCT_MODULE_NAME = WcjMyForum;
+				PRODUCT_NAME = WcjMyForum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EC1FDCE169511903E8ACC3DDE782066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5576B27FD0798DD88859C45D232FA26 /* Pods-WcjMyForum_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WcjMyForum_Tests/Pods-WcjMyForum_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WcjMyForum_Tests/Pods-WcjMyForum_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97CF9F4979E3E731DC73117FA9D3DFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F106F1F73DF15335069C0FF9CC95CA /* Pods-WcjMyForum_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WcjMyForum_Tests/Pods-WcjMyForum_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WcjMyForum_Tests/Pods-WcjMyForum_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA3FE2BBC281B66808B61E732DFC1DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE4CA7C32C77AFC878E17E83355A11A /* Pods-WcjMyForum_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WcjMyForum_Example/Pods-WcjMyForum_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WcjMyForum_Example/Pods-WcjMyForum_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EDFCD2AA5FBE29FEF1B99F60417B85 /* Build configuration list for PBXNativeTarget "Pods-WcjMyForum_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3FE2BBC281B66808B61E732DFC1DB9 /* Debug */,
+				0548A2BEF42B80E41E0A13CDFAF53004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CF30276EEFCD6925F714F24771E3F3 /* Build configuration list for PBXNativeTarget "Pods-WcjMyForum_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CF9F4979E3E731DC73117FA9D3DFB3 /* Debug */,
+				6EC1FDCE169511903E8ACC3DDE782066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A62A5F18901640E8AAA1370ADEBD92 /* Build configuration list for PBXNativeTarget "WcjMyForum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6546C653F667122A979EEAA9EB8A026E /* Debug */,
+				064439CA12D02A0C75F9FD78A53EE045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WcjMyForum (0.1.0)
+
+DEPENDENCIES:
+  - WcjMyForum (from `../`)
+
+EXTERNAL SOURCES:
+  WcjMyForum:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WcjMyForum: 3c0d42507aba96c22d9a11b8f5824379c18385df
+
+PODFILE CHECKSUM: f0791c062a1940af349fdd5fce8e9dd3c1e07905
+
+COCOAPODS: 1.10.1

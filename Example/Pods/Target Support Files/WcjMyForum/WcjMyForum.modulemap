@@ -1,0 +1,6 @@
+framework module WcjMyForum {
+  umbrella header "WcjMyForum-umbrella.h"
+
+  export *
+  module * { export * }
+}

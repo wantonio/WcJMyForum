@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30EED75D6B1978E9EAF7A89A /* Pods_WcjMyForum_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F29E06A6CACF2416C22241C /* Pods_WcjMyForum_Example.framework */; };
+		58F0835B2680F51A00C89642 /* MyStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F0835A2680F51A00C89642 /* MyStruct.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,9 +31,10 @@
 /* Begin PBXFileReference section */
 		0ABD035B9EC296E9CFF5EA7F /* Pods-WcjMyForum_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjMyForum_Example.debug.xcconfig"; path = "Target Support Files/Pods-WcjMyForum_Example/Pods-WcjMyForum_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		180CE675FD8C85AF1A9DFF92 /* Pods_WcjMyForum_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjMyForum_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		301CA4A7640AE76BD4C88C1E /* WcjMyForum.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WcjMyForum.podspec; path = ../WcjMyForum.podspec; sourceTree = "<group>"; };
+		301CA4A7640AE76BD4C88C1E /* WcjMyForum.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WcjMyForum.podspec; path = ../WcjMyForum.podspec; sourceTree = "<group>"; };
 		3F29E06A6CACF2416C22241C /* Pods_WcjMyForum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WcjMyForum_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE1C24FF51695FADFB5D8D1 /* Pods-WcjMyForum_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjMyForum_Tests.release.xcconfig"; path = "Target Support Files/Pods-WcjMyForum_Tests/Pods-WcjMyForum_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58F0835A2680F51A00C89642 /* MyStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStruct.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WcjMyForum_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WcjMyForum_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A1EB1B24CA8C2F061F1867F /* Pods-WcjMyForum_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjMyForum_Example.release.xcconfig"; path = "Target Support Files/Pods-WcjMyForum_Example/Pods-WcjMyForum_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C62EE7257C460AC118A1F82C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C62EE7257C460AC118A1F82C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9C733127AA6539EA3CC6B3F /* Pods-WcjMyForum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WcjMyForum_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WcjMyForum_Tests/Pods-WcjMyForum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F16B78B22CBA33CA97855E53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F16B78B22CBA33CA97855E53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				C9C733127AA6539EA3CC6B3F /* Pods-WcjMyForum_Tests.debug.xcconfig */,
 				4AE1C24FF51695FADFB5D8D1 /* Pods-WcjMyForum_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -120,6 +121,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				58F0835A2680F51A00C89642 /* MyStruct.swift */,
 			);
 			name = "Example for WcjMyForum";
 			path = WcjMyForum;
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				58F0835B2680F51A00C89642 /* MyStruct.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
