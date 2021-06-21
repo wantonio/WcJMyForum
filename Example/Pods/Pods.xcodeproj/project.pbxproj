@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CC756F26A960EC2EC71CB49654C25DA /* Pods-WcjMyForum_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4699F8B8BD89858289E5C9BB4195D94 /* Pods-WcjMyForum_Tests-dummy.m */; };
-		58F083532680E9D900C89642 /* MyForumClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083522680E9D900C89642 /* MyForumClient.swift */; };
+		58F083532680E9D900C89642 /* WcjMyForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083522680E9D900C89642 /* WcjMyForum.swift */; };
 		58F083552680EA2800C89642 /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083542680EA2800C89642 /* NetworkGeneric.swift */; };
 		58F083572680EA3600C89642 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083562680EA3600C89642 /* ApiError.swift */; };
 		58F083592680EB0200C89642 /* MyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F083582680EB0200C89642 /* MyPost.swift */; };
@@ -45,7 +45,7 @@
 		327898DE94456CD6A25E9F6EE69C4CDA /* WcjMyForum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WcjMyForum.debug.xcconfig; sourceTree = "<group>"; };
 		48C1127C86C2C218F88FCEF7947CD187 /* Pods-WcjMyForum_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WcjMyForum_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		54325DCA65AAC50A89C4FA347D5EC15C /* Pods-WcjMyForum_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WcjMyForum_Example-dummy.m"; sourceTree = "<group>"; };
-		58F083522680E9D900C89642 /* MyForumClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForumClient.swift; sourceTree = "<group>"; };
+		58F083522680E9D900C89642 /* WcjMyForum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WcjMyForum.swift; sourceTree = "<group>"; };
 		58F083542680EA2800C89642 /* NetworkGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGeneric.swift; sourceTree = "<group>"; };
 		58F083562680EA3600C89642 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		58F083582680EB0200C89642 /* MyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPost.swift; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 		58F083512680E9B400C89642 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
-				58F083522680E9D900C89642 /* MyForumClient.swift */,
+				58F083522680E9D900C89642 /* WcjMyForum.swift */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -421,7 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58F083532680E9D900C89642 /* MyForumClient.swift in Sources */,
+				58F083532680E9D900C89642 /* WcjMyForum.swift in Sources */,
 				58F083572680EA3600C89642 /* ApiError.swift in Sources */,
 				58F083552680EA2800C89642 /* NetworkGeneric.swift in Sources */,
 				B0521936194E84D93E28DFC7E52A51A9 /* WcjMyForum-dummy.m in Sources */,
